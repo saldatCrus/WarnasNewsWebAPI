@@ -1,0 +1,41 @@
+﻿<Page x:Class="WarnasNewsTestApp.Pages.AddNewsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WarnasNewsTestApp.Pages"
+      DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=AddNewsPageViewModel}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddNewsPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Загрузить изображение" Command="{Binding UploadImageButton}"/>
+            <Button Grid.Column="1" Content="Добавить новость" Command="{Binding AddNewsOnServer}"/>
+        </Grid>
+
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox Grid.Row="0" Text="{Binding NewsHead}"/>
+            <TextBox Grid.Row="1" Text="{Binding NewsBody}"/>
+            <TextBox Grid.Row="2" Text="{Binding NewsLink}"/>
+        </Grid>
+
+    </Grid>
+</Page>

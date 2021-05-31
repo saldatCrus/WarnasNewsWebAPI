@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarnasNewsWebAPI", "WarnasNewsWebAPI\WarnasNewsWebAPI.csproj", "{ACBFE301-E196-4F15-90C8-7D4A5BE7E8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarnasNewsTestApp", "WarnasNewsTestApp\WarnasNewsTestApp.csproj", "{E0582BF6-0DB5-41A5-8DF3-4259E4E2D468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACBFE301-E196-4F15-90C8-7D4A5BE7E8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBFE301-E196-4F15-90C8-7D4A5BE7E8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBFE301-E196-4F15-90C8-7D4A5BE7E8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBFE301-E196-4F15-90C8-7D4A5BE7E8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0582BF6-0DB5-41A5-8DF3-4259E4E2D468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0582BF6-0DB5-41A5-8DF3-4259E4E2D468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0582BF6-0DB5-41A5-8DF3-4259E4E2D468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0582BF6-0DB5-41A5-8DF3-4259E4E2D468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7529A51B-3D57-4B01-BF2E-630868A13466}
+	EndGlobalSection
+EndGlobal
